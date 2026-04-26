@@ -1,0 +1,164 @@
+pieces:
+  - title: "Hollis Library"
+    slug: "hollis-nh-library"
+    description: "A reinterpretation of the Hollis Social Library with a focus on atmosphere and architectural character. The watercolor version softens the edges and emphasizes light, while the charcoal, bold-line, and black-and-white treatments shift attention toward symmetry, texture, and the building’s classical details."
+    primaryImage: "hollis-nh-library__watercolor.png"
+    tags:
+      - "hollis"
+      - "new-hampshire"
+      - "architecture"
+      - "library"
+    variants:
+      - label: "Watercolor"
+        image: "hollis-nh-library__watercolor.png"
+        tags:
+          - "watercolor"
+      - label: "Charcoal"
+        image: "hollis-nh-library__charcoal.png"
+        tags:
+          - "charcoal"
+      - label: "Bold Line"
+        image: "hollis-nh-library__bold-line.png"
+        tags:
+          - "bold-line"
+      - label: "Black & White"
+        image: "hollis-nh-library__black-and-white.png"
+        tags:
+          - "black-and-white"
+
+  - title: "Hollis Monument Store"
+    slug: "hollis-nh-monument-store"
+    description: "A quiet small-town storefront reimagined through painterly and sketch-based treatments. The watercolor version gives the scene a softened, nostalgic feel, while the charcoal and expressive versions emphasize texture, age, and the handmade character of a local landmark."
+    primaryImage: "hollis-nh-monument-store__watercolor.png"
+    tags:
+      - "hollis"
+      - "new-hampshire"
+      - "architecture"
+      - "storefront"
+      - "landmark"
+    variants:
+      - label: "Watercolor"
+        image: "hollis-nh-monument-store__watercolor.png"
+        tags:
+          - "watercolor"
+      - label: "Charcoal"
+        image: "hollis-nh-monument-store__charcoal.png"
+        tags:
+          - "charcoal"
+      - label: "Expressive"
+        image: "hollis-nh-monument-store__expressive.png"
+        tags:
+          - "expressive"
+
+  - title: "Leda Lanes"
+    slug: "nashua-nh-leda-lanes"
+    description: "A poster-style tribute to a longtime Nashua bowling landmark. Leda Lanes opened in 1969 and became a familiar gathering place for generations of bowlers and families; this version leans into bold color, simplified shapes, and retro destination-poster energy."
+    primaryImage: "nashua-nh-leda-lanes__poster-style.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "landmark"
+      - "nostalgic"
+      - "local-history"
+    variants:
+      - label: "Poster Style"
+        image: "nashua-nh-leda-lanes__poster-style.png"
+        tags:
+          - "poster-style"
+
+  - title: "Whiting Building"
+    slug: "nashua-nh-whiting-building"
+    description: "A historic downtown Nashua building reimagined with the mood of an 1890s streetscape. The treatment uses softened period atmosphere, warm architectural detail, and a restrained historic palette to suggest the city’s transition from village center to busy downtown."
+    primaryImage: "nashua-nh-whiting-building__historic-1890s.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "architecture"
+      - "downtown"
+      - "historic"
+      - "local-history"
+    variants:
+      - label: "Historic 1890s"
+        image: "nashua-nh-whiting-building__historic-1890s.png"
+        tags:
+          - "historic"
+
+  - title: "Hayward’s"
+    slug: "nashua-nh-haywards"
+    description: "A nostalgic reinterpretation of a familiar Nashua landmark. The postcard version presents Hayward’s as a cheerful roadside destination, while the whimsy-cars variation adds playful vintage energy and a sense of summer memory."
+    primaryImage: "nashua-nh-haywards__postcard.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "landmark"
+      - "nostalgic"
+    variants:
+      - label: "Postcard"
+        image: "nashua-nh-haywards__postcard.png"
+        tags:
+          - "postcard"
+      - label: "Whimsy Cars"
+        image: "nashua-nh-haywards__whimsy-cars.png"
+        tags:
+          - "whimsy"
+
+  - title: "Holman Stadium Arch Doorway"
+    slug: "nashua-nh-holman-arch-doorway"
+    description: "A classic view of Holman Stadium’s arched entry, treated with a clean, timeless feel. Holman Stadium is part of Nashua’s WPA-era civic history, and the image emphasizes brick, symmetry, and the kind of public architecture built to feel durable and communal."
+    primaryImage: "nashua-nh-holman-arch-doorway__classic.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "architecture"
+      - "stadium"
+      - "landmark"
+      - "local-history"
+    variants:
+      - label: "Classic"
+        image: "nashua-nh-holman-arch-doorway__classic.png"
+        tags:
+          - "classic"
+
+  - title: "Main Street Bridge"
+    slug: "nashua-nh-main-street-bridge"
+    description: "A black-and-white reinterpretation of Nashua’s Main Street bridge, using strong contrast and simplified linework to highlight structure, movement, and urban character. The monochrome style gives the scene a documentary feel while keeping the focus on shape and atmosphere."
+    primaryImage: "nashua-nh-main-street-bridge__black-and-white.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "architecture"
+      - "bridge"
+      - "downtown"
+    variants:
+      - label: "Black & White"
+        image: "nashua-nh-main-street-bridge__black-and-white.png"
+        tags:
+          - "black-and-white"
+
+  - title: "Peddler’s Daughter"
+    slug: "nashua-nh-peddlers-daughter"
+    description: "A set of stylized reinterpretations of Peddler’s Daughter in downtown Nashua. The black-and-white version emphasizes line and storefront detail, the city-poster version gives it a graphic urban energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
+    primaryImage: "nashua-nh-peddlers-daughter__black-and-white.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "architecture"
+      - "restaurant"
+    variants:
+      - label: "Black & White"
+        image: "nashua-nh-peddlers-daughter__black-and-white.png"
+        tags:
+          - "black-and-white"
+      - label: "City Poster"
+        image: "nashua-nh-peddlers-daughter__city-poster.png"
+        tags:
+          - "city-poster"
+          - "poster-style"
+      - label: "Comic Book"
+        image: "nashua-nh-peddlers-daughter__comic-book.png"
+        tags:
+          - "comic-book"
+      - label: "Contemporary Impressionism"
+        image: "nashua-nh-peddlers-daughter__contemporary-impressionism.png"
+        tags:
+          - "contemporary-impressionism"

@@ -1,0 +1,57 @@
+collections:
+  - title: "All Work"
+    slug: "all"
+    description: "A complete view of the collection."
+    coverImage: "hollis-nh-library__watercolor.png"
+    tags: []
+
+  - title: "Nashua"
+    slug: "nashua"
+    description: "Reinterpretations inspired by familiar places around Nashua."
+    coverImage: "nashua-nh-haywards__postcard.png"
+    tags:
+      - "nashua"
+
+  - title: "New Hampshire"
+    slug: "new-hampshire"
+    description: "Creative reinterpretations of places and landmarks around New Hampshire."
+    coverImage: "hollis-nh-library__watercolor.png"
+    tags:
+      - "new-hampshire"
+
+  - title: "Architecture"
+    slug: "architecture"
+    description: "Buildings, storefronts, bridges, and local landmarks with a focus on structure, light, and atmosphere."
+    coverImage: "nashua-nh-whiting-building__historic-1890s.png"
+    tags:
+      - "architecture"
+
+  - title: "Black & White"
+    slug: "black-and-white"
+    description: "Monochrome reinterpretations with an emphasis on contrast, form, line, and atmosphere."
+    coverImage: "nashua-nh-peddlers-daughter__black-and-white.png"
+    tags:
+      - "black-and-white"
+
+  - title: "Watercolor"
+    slug: "watercolor"
+    description: "Painterly pieces with soft edges, layered color, and a hand-worked feel."
+    coverImage: "hollis-nh-library__watercolor.png"
+    tags:
+      - "watercolor"
+
+  - title: "Charcoal & Sketch"
+    slug: "charcoal-and-sketch"
+    description: "Textured sketch-style pieces that emphasize architecture, mood, and hand-drawn character."
+    coverImage: "hollis-nh-monument-store__charcoal.png"
+    tags:
+      - "charcoal"
+
+  - title: "Poster & Postcard"
+    slug: "poster-and-postcard"
+    description: "Nostalgic, destination-style reinterpretations with a printed keepsake feel."
+    coverImage: "nashua-nh-haywards__postcard.png"
+    tags:
+      - "postcard"
+      - "poster-style"
+      - "city-poster"
