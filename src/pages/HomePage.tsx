@@ -11,7 +11,7 @@ function HomePage() {
         <section className="hero hero--collage" aria-labelledby="hero-heading">
           <img
             className="hero__image"
-            src="/images/hero-collage-desktop-v4.png"
+            src="/images/hero-collage-desktop-v5.png"
             alt=""
             loading="eager"
             aria-hidden="true"
