@@ -162,3 +162,58 @@ pieces:
         image: "nashua-nh-peddlers-daughter__contemporary-impressionism.png"
         tags:
           - "contemporary-impressionism"
+
+  - title: "Rockport Fishing Shack"
+    slug: "nashua-nh-rockport-fishing-shack"
+    description: "A set of reinterpretations of the famous Rockport Fishing Shack in Rockport, Massachusetts. The watercolor version displays a dreamy and ethereal quality, the city-poster version gives it a graphic illustration energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
+    primaryImage: "rockport-ma-fishing-shack__watercolor.png"
+    tags:
+      - "rockport"
+      - "massachusetts"
+      - "architecture"
+      - "seascape"
+    variants:
+      - label: "Watercolor"
+        image: "rockport-ma-fishing-shack__watercolor.png"
+        tags:
+          - "watercolor"
+      - label: "City Poster"
+        image: "rockport-ma-fishing-shack__city-poster.png"
+        tags:
+          - "city-poster"
+          - "poster-style"
+      - label: "Charcoal & Sketch"
+        image: "rockport-ma-fishing-shack__charcoal.png"
+        tags:
+          - "charcoal"
+      - label: "Contemporary Impressionism"
+        image: "rockport-ma-fishing-shack__contemporary-impressionism.png"
+        tags:
+          - "contemporary-impressionism"
+
+  - title: "Notchview Scenic Hut"
+    slug: "windsor-ma-notchview-scenic-hut"
+    description: "A set of reinterpretations of the lovely Notchview scenic view at the Notchview nordic ski area in Windsor, Massachusetts. The watercolor version displays a dreamy and ethereal quality, the charcoal version focuses on the lines and textures in the scene, and the neo expressionist version turns the scene into a more exotic study of color, light, and atmosphere."
+    primaryImage: "windsor-ma-notchview-scenic-hut__watercolor.png"
+    tags:
+      - "windsor"
+      - "massachusetts"
+      - "architecture"
+      - "seascape"
+    variants:
+      - label: "Watercolor"
+        image: "windsor-ma-notchview-scenic-hut__watercolor.png"
+        tags:
+          - "watercolor"
+      - label: "Watercolor - Full View"
+        image: "windsor-ma-notchview-scenic-hut__watercolor-version2.png"
+        tags:
+          - "watercolor"
+      - label: "Charcoal & Sketch"
+        image: "windsor-ma-notchview-scenic-hut__charcoal.png"
+        tags:
+          - "charcoal"
+      - label: "Neo Expressionist"
+        image: "windsor-ma-notchview-scenic-hut__neo-expressionist.png"
+        tags:
+          - "neo-expressionist"

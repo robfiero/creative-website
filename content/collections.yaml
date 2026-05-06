@@ -2,7 +2,7 @@ collections:
   - title: "All Work"
     slug: "all"
     description: "A complete view of the collection."
-    coverImage: "hollis-nh-library__watercolor.png"
+    coverImage: "rockport-ma-fishing-shack__contemporary-impressionism.png"
     tags: []
 
   - title: "Nashua"
@@ -11,13 +11,6 @@ collections:
     coverImage: "nashua-nh-haywards__postcard.png"
     tags:
       - "nashua"
-
-  - title: "New Hampshire"
-    slug: "new-hampshire"
-    description: "Creative reinterpretations of places and landmarks around New Hampshire."
-    coverImage: "hollis-nh-library__watercolor.png"
-    tags:
-      - "new-hampshire"
 
   - title: "Architecture"
     slug: "architecture"
@@ -50,7 +43,7 @@ collections:
   - title: "Poster & Postcard"
     slug: "poster-and-postcard"
     description: "Nostalgic, destination-style reinterpretations with a printed keepsake feel."
-    coverImage: "nashua-nh-haywards__postcard.png"
+    coverImage: "nashua-nh-leda-lanes__poster-style.png"
     tags:
       - "postcard"
       - "poster-style"
