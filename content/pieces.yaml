@@ -194,7 +194,7 @@ pieces:
   - title: "Notchview Scenic Hut"
     slug: "windsor-ma-notchview-scenic-hut"
     description: "A set of reinterpretations of the lovely Notchview scenic view at the Notchview nordic ski area in Windsor, Massachusetts. The watercolor version displays a dreamy and ethereal quality, the charcoal version focuses on the lines and textures in the scene, and the neo expressionist version turns the scene into a more exotic study of color, light, and atmosphere."
-    primaryImage: "windsor-ma-notchview-scenic-hut__watercolor.png"
+    primaryImage: "windsor-ma-notchview-hut__watercolor.png"
     tags:
       - "windsor"
       - "massachusetts"
@@ -202,18 +202,18 @@ pieces:
       - "seascape"
     variants:
       - label: "Watercolor"
-        image: "windsor-ma-notchview-scenic-hut__watercolor.png"
+        image: "windsor-ma-notchview-hut__watercolor.png"
         tags:
           - "watercolor"
       - label: "Watercolor - Full View"
-        image: "windsor-ma-notchview-scenic-hut__watercolor-version2.png"
+        image: "windsor-ma-notchview-hut__watercolor-version2.png"
         tags:
           - "watercolor"
       - label: "Charcoal & Sketch"
-        image: "windsor-ma-notchview-scenic-hut__charcoal.png"
+        image: "windsor-ma-notchview-hut__charcoal.png"
         tags:
           - "charcoal"
       - label: "Neo Expressionist"
-        image: "windsor-ma-notchview-scenic-hut__neo-expressionist.png"
+        image: "windsor-ma-notchview-hut__neo-expressionist.png"
         tags:
           - "neo-expressionist"
