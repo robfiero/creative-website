@@ -19,6 +19,13 @@ collections:
     tags:
       - "architecture"
 
+  - title: "Seasonal"
+    slug: "seasonal"
+    description: "Pieces that capture the essence of different seasons and holidays."
+    coverImage: "nashua-nh-hunt-memorial-building__seasonal-christmas.png"
+    tags:
+      - "seasonal"
+
   - title: "Black & White"
     slug: "black-and-white"
     description: "Monochrome reinterpretations with an emphasis on contrast, form, line, and atmosphere."

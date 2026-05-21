@@ -217,3 +217,53 @@ pieces:
         image: "windsor-ma-notchview-hut__neo-expressionist.png"
         tags:
           - "neo-expressionist"
+
+  - title: "Hunt Memorial Building Seasonal Set"
+    slug: "nashua-nh-hunt-memorial-building__seasonal-set"
+    description: "Four reinterpretations of the Hunt Memorial Building in Nashua, New Hampshire with a seasonal flare.  The Holiday Stroll in Nashua generally ends at the lovely tree next to Railroad Square for the tree lighting ceremony, and I thought it would be fun to re-imagine the scene for various holidays, one for each season. The Christmas version emphasizes the festive holiday spirit, the Easter Day version gives it a romantic and whimsical feel, the Halloween version adds a spooky and playful atmosphere, and the Spring version focuses on the blooming flowers and fresh energy of the season."
+    primaryImage: "nashua-nh-hunt-memorial-building__seasonal-easter.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "seasonal"
+    variants:
+      - label: "Easter Day"
+        image: "nashua-nh-hunt-memorial-building__seasonal-easter.png"
+        tags:
+          - "seasonal"
+      - label: "July 4th"
+        image: "nashua-nh-hunt-memorial-building__seasonal-july-4th.png"
+        tags:
+          - "seasonal"
+      - label: "Halloween"
+        image: "nashua-nh-hunt-memorial-building__seasonal-halloween.png"
+        tags:
+          - "seasonal"
+      - label: "Christmas"
+        image: "nashua-nh-hunt-memorial-building__seasonal-christmas.png"
+        tags:
+          - "seasonal"
+
+  - title: "Hunt Memorial Building"
+    slug: "nashua-nh-hunt-memorial-building"
+    description: "The Hunt Memorial Building in Nashua, New Hampshire is an often overlooked gem.  It’s a beautiful piece of architecture and a local landmark right at the top of Library Hill, and in looking at it, I envisioned that building in a few different ways.  First, what it could look like with a bit more grass and landscaping, color bursting in Spring.  Or, without color, using a black and white charcoal image to bring forward the beautiful lines and architecture of the building.  Lastly, for fun, a postcard that someone could have sent in the 1920s, 1940s, or even the 1960s, with a nostalgic, vintage feel."
+    primaryImage: "nashua-nh-hunt-memorial-building__realistic.png"
+    tags:
+      - "nashua"
+      - "new-hampshire"
+      - "architecture"
+      - "landmark"
+      - "downtown"
+    variants:
+      - label: "Classic Realistic"
+        image: "nashua-nh-hunt-memorial-building__realistic.png"
+        tags:
+          - "architecture"
+      - label: "Charcoal & Sketch"
+        image: "nashua-nh-hunt-memorial-building__black-white.png"
+        tags:
+          - "charcoal"
+      - label: "Postcard"
+        image: "nashua-nh-hunt-memorial-building__postcard.png"
+        tags:
+          - "postcard"
