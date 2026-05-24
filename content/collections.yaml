@@ -8,23 +8,23 @@ collections:
   - title: "Nashua"
     slug: "nashua"
     description: "Reinterpretations inspired by familiar places around Nashua."
-    coverImage: "nashua-nh-haywards__postcard.png"
+    coverImage: "nashua-nh-hunt-memorial-building__realistic.png"
     tags:
       - "nashua"
 
+  - title: "Watercolor"
+    slug: "watercolor"
+    description: "Painterly pieces with soft edges, layered color, and a hand-worked feel."
+    coverImage: "hollis-nh-library__watercolor.png"
+    tags:
+      - "watercolor"
+
   - title: "Architecture"
     slug: "architecture"
-    description: "Buildings, storefronts, bridges, and local landmarks with a focus on structure, light, and atmosphere."
+    description: "Buildings, storefronts, bridges, and local landmarks with a focus on structure, the lines of the building, and it's lighting."
     coverImage: "nashua-nh-whiting-building__historic-1890s.png"
     tags:
       - "architecture"
-
-  - title: "Seasonal"
-    slug: "seasonal"
-    description: "Pieces that capture the essence of different seasons and holidays."
-    coverImage: "nashua-nh-hunt-memorial-building__seasonal-christmas.png"
-    tags:
-      - "seasonal"
 
   - title: "Black & White"
     slug: "black-and-white"
@@ -33,12 +33,12 @@ collections:
     tags:
       - "black-and-white"
 
-  - title: "Watercolor"
-    slug: "watercolor"
-    description: "Painterly pieces with soft edges, layered color, and a hand-worked feel."
-    coverImage: "hollis-nh-library__watercolor.png"
+  - title: "Seasonal"
+    slug: "seasonal"
+    description: "Pieces that imagine how a location could look during different seasons and holidays."
+    coverImage: "nashua-nh-hunt-memorial-building__seasonal-christmas.png"
     tags:
-      - "watercolor"
+      - "seasonal"
 
   - title: "Charcoal & Sketch"
     slug: "charcoal-and-sketch"
@@ -49,9 +49,18 @@ collections:
 
   - title: "Poster & Postcard"
     slug: "poster-and-postcard"
-    description: "Nostalgic, destination-style reinterpretations with a printed keepsake feel."
+    description: "Nostalgic, destination-style reinterpretations with a printed postcard or poster feel."
     coverImage: "nashua-nh-leda-lanes__poster-style.png"
     tags:
       - "postcard"
       - "poster-style"
       - "city-poster"
+
+  - title: "🎃 Ghost Train 🎃"
+    slug: "ghost-train"
+    description: "A collection of haunting promotional scenes for the Ghost Train Trail Race.  👻🚂"
+    coverImage: "brookline-nh-ghost-train__skeleton-card-game.png"
+    tags:
+      - "ghost-train"
+      - "trail-race"
+      - "spooky"

@@ -1,7 +1,7 @@
 pieces:
   - title: "Hollis Library"
     slug: "hollis-nh-library"
-    description: "A reinterpretation of the Hollis Social Library with a focus on atmosphere and architectural character. The watercolor version softens the edges and emphasizes light, while the charcoal, bold-line, and black-and-white treatments shift attention toward symmetry, texture, and the building’s classical details."
+    description: "A reinterpretation of the Hollis Social Library in Hollis, NH, with a focus on atmosphere and architectural character. I remember checking books out by the armful during the summer growing up, and I always enjoyed the display of birds in the main room of the pre-renovated building. I have many fond memories of my mom bringing us to the library. The watercolor version softens the edges and emphasizes light, while the charcoal, bold-line, and black-and-white treatments shift attention toward symmetry, texture, and the building’s classical details."
     primaryImage: "hollis-nh-library__watercolor.png"
     tags:
       - "hollis"
@@ -28,7 +28,7 @@ pieces:
 
   - title: "Hollis Monument Store"
     slug: "hollis-nh-monument-store"
-    description: "A quiet small-town storefront reimagined through painterly and sketch-based treatments. The watercolor version gives the scene a softened, nostalgic feel, while the charcoal and expressive versions emphasize texture, age, and the handmade character of a local landmark."
+    description: "A quiet storefront located adjacent to the Hollis Town Common, reimagined through painterly and sketch-based treatments. Growing up, I would ride my bike to the old convenience store to buy penny candy and junk food, and sometimes my friends and I would sneak over after Boy Scouts. The watercolor version gives the scene a softened, nostalgic feel, while the charcoal and expressive versions emphasize texture, age, and the handmade character of a local landmark."
     primaryImage: "hollis-nh-monument-store__watercolor.png"
     tags:
       - "hollis"
@@ -52,7 +52,7 @@ pieces:
 
   - title: "Leda Lanes"
     slug: "nashua-nh-leda-lanes"
-    description: "A poster-style tribute to a longtime Nashua bowling landmark. Leda Lanes opened in 1969 and became a familiar gathering place for generations of bowlers and families; this version leans into bold color, simplified shapes, and retro destination-poster energy."
+    description: "A poster-style tribute to a longtime Nashua bowling landmark. Leda Lanes opened in 1959 and became a familiar gathering place for generations of bowlers and families. If you are from Nashua, you may remember going there as a child, or maybe you were a member of a league. This image leans into bold color, simplified shapes, and retro destination-poster energy, presenting the bowling alley as a cheerful local landmark and a nostalgic destination for fun nights out. The poster style gives the iconic sign and building a vintage feel while celebrating the unique character of this beloved spot."
     primaryImage: "nashua-nh-leda-lanes__poster-style.png"
     tags:
       - "nashua"
@@ -68,7 +68,7 @@ pieces:
 
   - title: "Whiting Building"
     slug: "nashua-nh-whiting-building"
-    description: "A historic downtown Nashua building reimagined with the mood of an 1890s streetscape. The treatment uses softened period atmosphere, warm architectural detail, and a restrained historic palette to suggest the city’s transition from village center to busy downtown."
+    description: "The historic Whiting Building in downtown Nashua was built in 1889. It has always stood out to me because the cream-colored brick used in its construction is different from the red brick of the surrounding buildings. I've reimagined the building in the format of an 1890s streetscape, wondering how it might have looked when it was brand new, with the church behind it. The treatment uses softened period atmosphere, warm architectural detail, and a restrained historic palette to suggest the city’s transition from village center to busy downtown."
     primaryImage: "nashua-nh-whiting-building__historic-1890s.png"
     tags:
       - "nashua"
@@ -85,7 +85,7 @@ pieces:
 
   - title: "Hayward’s"
     slug: "nashua-nh-haywards"
-    description: "A nostalgic reinterpretation of a familiar Nashua landmark. The postcard version presents Hayward’s as a cheerful roadside destination, while the whimsy-cars variation adds playful vintage energy and a sense of summer memory."
+    description: "A nostalgic reinterpretation of Hayward’s Ice Cream in Nashua, NH. Since opening in 1940, generations of families have enjoyed this classic ice cream stand. The postcard version presents Hayward’s as a cheerful roadside destination, while the whimsy-cars variation adds playful vintage energy and a sense of summer memory, where generations of cars have gathered to enjoy an ice cream cone together."
     primaryImage: "nashua-nh-haywards__postcard.png"
     tags:
       - "nashua"
@@ -104,7 +104,7 @@ pieces:
 
   - title: "Holman Stadium Arch Doorway"
     slug: "nashua-nh-holman-arch-doorway"
-    description: "A classic view of Holman Stadium’s arched entry, treated with a clean, timeless feel. Holman Stadium is part of Nashua’s WPA-era civic history, and the image emphasizes brick, symmetry, and the kind of public architecture built to feel durable and communal."
+    description: "This is a view through one of Holman Stadium’s arched entryways, based on a photo I took at sunrise one morning. Holman Stadium is part of Nashua’s Great Depression-era civic history, financed by Charles Frank Holman and the Works Progress Administration. The stadium has a vaunted history, including being home to the Brooklyn Dodgers' minor league affiliate, the first racially integrated professional baseball team in the U.S. in 1946, welcoming Roy Campanella and Don Newcombe to the team. It was also the location of the first game in which an African American, Campanella, managed a professional team with white athletes, and today it is home to the Nashua Silver Knights. The image emphasizes brick, symmetry, and the kind of public architecture built to feel durable and communal, while the view captures the morning light filtering through the arch over a classic baseball field."
     primaryImage: "nashua-nh-holman-arch-doorway__classic.png"
     tags:
       - "nashua"
@@ -137,7 +137,7 @@ pieces:
 
   - title: "Peddler’s Daughter"
     slug: "nashua-nh-peddlers-daughter"
-    description: "A set of stylized reinterpretations of Peddler’s Daughter in downtown Nashua. The black-and-white version emphasizes line and storefront detail, the city-poster version gives it a graphic urban energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
+    description: "A set of stylized reinterpretations of Peddler’s Daughter in downtown Nashua, NH. If you haven't been there, this is the real deal for fish and chips, along with a great pint of Guinness. The black-and-white version emphasizes line and storefront detail, the city-poster version gives it graphic urban energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
     primaryImage: "nashua-nh-peddlers-daughter__black-and-white.png"
     tags:
       - "nashua"
@@ -165,7 +165,7 @@ pieces:
 
   - title: "Rockport Fishing Shack"
     slug: "nashua-nh-rockport-fishing-shack"
-    description: "A set of reinterpretations of the famous Rockport Fishing Shack in Rockport, Massachusetts. The watercolor version displays a dreamy and ethereal quality, the city-poster version gives it a graphic illustration energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
+    description: "A set of reinterpretations of the famous Rockport Fishing Shack in Rockport, Massachusetts. The watercolor version displays a dreamy and ethereal quality, the city-poster version gives it graphic illustration energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
     primaryImage: "rockport-ma-fishing-shack__watercolor.png"
     tags:
       - "rockport"
@@ -193,7 +193,7 @@ pieces:
 
   - title: "Notchview Scenic Hut"
     slug: "windsor-ma-notchview-scenic-hut"
-    description: "A set of reinterpretations of the lovely Notchview scenic view at the Notchview nordic ski area in Windsor, Massachusetts. The watercolor version displays a dreamy and ethereal quality, the charcoal version focuses on the lines and textures in the scene, and the neo expressionist version turns the scene into a more exotic study of color, light, and atmosphere."
+    description: "A set of reinterpretations of the lovely scenic view at the Notchview Nordic ski area in Windsor, Massachusetts. Starting in 2015, the Berkshire Ultra Running Community for Service (BURCS) has hosted a race at the site, and the view is always iconic, changing throughout the day and into the night. The watercolor version displays a dreamy and ethereal quality, the charcoal version focuses on the lines and textures in the scene, and the neo-expressionist version turns the scene into a more exotic study of color, light, and atmosphere."
     primaryImage: "windsor-ma-notchview-hut__watercolor.png"
     tags:
       - "windsor"
@@ -220,7 +220,7 @@ pieces:
 
   - title: "Hunt Memorial Building Seasonal Set"
     slug: "nashua-nh-hunt-memorial-building__seasonal-set"
-    description: "Four reinterpretations of the Hunt Memorial Building in Nashua, New Hampshire with a seasonal flare.  The Holiday Stroll in Nashua generally ends at the lovely tree next to Railroad Square for the tree lighting ceremony, and I thought it would be fun to re-imagine the scene for various holidays, one for each season. The Christmas version emphasizes the festive holiday spirit, the Easter Day version gives it a romantic and whimsical feel, the Halloween version adds a spooky and playful atmosphere, and the Spring version focuses on the blooming flowers and fresh energy of the season."
+    description: "Four reinterpretations of the Hunt Memorial Building in Nashua, New Hampshire, with a seasonal flair. The Holiday Stroll in Nashua generally ends at the lovely tree next to Railroad Square for the tree lighting ceremony, and I thought it would be fun to reimagine the scene for various holidays, one for each season. The Christmas version emphasizes the festive holiday spirit, the Easter Day version gives it a romantic and whimsical feel, the Halloween version adds a spooky and playful atmosphere, and the Spring version focuses on the blooming flowers and fresh energy of the season."
     primaryImage: "nashua-nh-hunt-memorial-building__seasonal-easter.png"
     tags:
       - "nashua"
@@ -246,7 +246,7 @@ pieces:
 
   - title: "Hunt Memorial Building"
     slug: "nashua-nh-hunt-memorial-building"
-    description: "The Hunt Memorial Building in Nashua, New Hampshire is an often overlooked gem.  It’s a beautiful piece of architecture and a local landmark right at the top of Library Hill, and in looking at it, I envisioned that building in a few different ways.  First, what it could look like with a bit more grass and landscaping, color bursting in Spring.  Or, without color, using a black and white charcoal image to bring forward the beautiful lines and architecture of the building.  Lastly, for fun, a postcard that someone could have sent in the 1920s, 1940s, or even the 1960s, with a nostalgic, vintage feel."
+    description: "The Hunt Memorial Building in Nashua, New Hampshire, is an often overlooked gem. It’s a beautiful piece of architecture and a local landmark right at the top of Library Hill, and in looking at it, I envisioned the building in a few different ways. First, what it could look like with a bit more grass and landscaping, with color bursting in spring. Or, without color, using a black-and-white charcoal image to bring forward the beautiful lines and architecture of the building. Lastly, for fun, a postcard that someone could have sent in the 1920s, 1940s, or even the 1960s, with a nostalgic, vintage feel."
     primaryImage: "nashua-nh-hunt-memorial-building__realistic.png"
     tags:
       - "nashua"
@@ -267,3 +267,104 @@ pieces:
         image: "nashua-nh-hunt-memorial-building__postcard.png"
         tags:
           - "postcard"
+
+  - title: "Ghost Train Trail Race"
+    slug: "brookline-nh-ghost-train-trail-race"
+    description: "A haunted set of Ghost Train Trail Race promotional scenes, blending eerie railroad folklore, winter woods, glowing pumpkins, old station signs, skeleton runners, and a little registration-season dread. 👻🚂 Some pieces lean cinematic and moody, while others are playful, poster-like, or intentionally oddball. Together, they turn race promotion into a small haunted railroad universe."
+    primaryImage: "brookline-nh-ghost-train__registration-opens-today.png"
+    tags:
+      - "brookline"
+      - "new-hampshire"
+      - "ghost-train"
+      - "trail-race"
+      - "promotional"
+      - "spooky"
+    variants:
+      - label: "Registration Opens Today"
+        image: "brookline-nh-ghost-train__registration-opens-today.png"
+        tags:
+          - "ghost-train"
+          - "trail-race"
+          - "registration"
+          - "winter"
+          - "spooky"
+      - label: "Registration Gates Open Tomorrow"
+        image: "brookline-nh-ghost-train__registration-gates-open-tomorrow.png"
+        tags:
+          - "ghost-train"
+          - "trail-race"
+          - "registration"
+          - "winter"
+          - "spooky"
+      - label: "12 Sleeps Until Registration"
+        image: "brookline-nh-ghost-train__twelve-sleeps-registration.png"
+        tags:
+          - "ghost-train"
+          - "trail-race"
+          - "registration"
+          - "countdown"
+          - "spooky"
+      - label: "Ticket Window Waitlist Closed"
+        image: "brookline-nh-ghost-train__ticket-window-waitlist-closed.png"
+        tags:
+          - "ghost-train"
+          - "trail-race"
+          - "waitlist"
+          - "station"
+          - "spooky"
+      - label: "Coal Train Sunset"
+        image: "brookline-nh-ghost-train__coal-train-sunset.png"
+        tags:
+          - "ghost-train"
+          - "railroad"
+          - "cinematic"
+          - "sunset"
+          - "spooky"
+      - label: "Alligators on the Trail! (April Fools!)"
+        image: "brookline-nh-ghost-train__swamp-trail-run.png"
+        tags:
+          - "ghost-train"
+          - "trail-race"
+          - "swamp"
+          - "runners"
+          - "spooky"
+      - label: "Cone Course Illustration"
+        image: "brookline-nh-ghost-train__cone-course-illustration.png"
+        tags:
+          - "ghost-train"
+          - "trail-race"
+          - "illustration"
+          - "course"
+          - "playful"
+      - label: "Skeleton Card Game"
+        image: "brookline-nh-ghost-train__skeleton-card-game.png"
+        tags:
+          - "ghost-train"
+          - "railcar"
+          - "skeletons"
+          - "cinematic"
+          - "spooky"
+      - label: "Race Director Working Hard"
+        image: "brookline-nh-ghost-train__retro-computer-registration.png"
+        tags:
+          - "ghost-train"
+          - "registration"
+          - "retro"
+          - "illustration"
+          - "playful"
+      - label: "Winter Haunted Run"
+        image: "brookline-nh-ghost-train__winter-haunted-run.png"
+        tags:
+          - "ghost-train"
+          - "trail-race"
+          - "winter"
+          - "skeletons"
+          - "spooky"
+      - label: "Midnight Card Game"
+        image: "brookline-nh-ghost-train__midnight-card-game.png"
+        tags:
+          - "ghost-train"
+          - "skeletons"
+          - "railroad"
+          - "cinematic"
+          - "spooky"

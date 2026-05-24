@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 
 import ImageWithFallback from '../components/ImageWithFallback'
@@ -37,6 +37,12 @@ function PiecePage() {
   }, [piece, variantFromQuery])
 
   const [selectedImageByContext, setSelectedImageByContext] = useState<Record<string, string>>({})
+  const [mainImageIsPortrait, setMainImageIsPortrait] = useState(false)
+
+  const handleMainImageLoad = useCallback((e: React.SyntheticEvent<HTMLImageElement>) => {
+    const img = e.currentTarget
+    setMainImageIsPortrait(img.naturalHeight > img.naturalWidth)
+  }, [])
   const selectionContextKey = `${piece?.slug ?? ''}:${variantFromQuery ?? ''}`
   const userSelectedImage = selectedImageByContext[selectionContextKey] ?? null
 
@@ -65,7 +71,7 @@ function PiecePage() {
       aria-labelledby="piece-title"
     >
       <div className="piece-page__layout">
-        <div className="piece-page__gallery">
+        <div className={`piece-page__gallery${mainImageIsPortrait ? ' piece-page__gallery--portrait' : ''}`}>
           <div className="piece-page__main-image-frame">
             <div className="piece-page__main-image-stage">
               <ImageWithFallback
@@ -74,6 +80,7 @@ function PiecePage() {
                 src={buildImageUrl(selectedImage)}
                 alt={piece.title}
                 fallbackClassName="piece-page__main-image piece-page__main-placeholder"
+                onLoad={handleMainImageLoad}
               />
             </div>
           </div>

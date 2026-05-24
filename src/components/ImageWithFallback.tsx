@@ -6,6 +6,7 @@ type ImageWithFallbackProps = {
   alt: string
   fallbackClassName: string
   fallbackText?: string
+  onLoad?: (e: React.SyntheticEvent<HTMLImageElement>) => void
 }
 
 function ImageWithFallback({
@@ -14,6 +15,7 @@ function ImageWithFallback({
   alt,
   fallbackClassName,
   fallbackText = 'Image unavailable',
+  onLoad,
 }: ImageWithFallbackProps) {
   const [failedSrc, setFailedSrc] = useState<string | null>(null)
   const hasError = failedSrc === src
@@ -23,7 +25,14 @@ function ImageWithFallback({
   }
 
   return (
-    <img className={className} src={src} alt={alt} loading="lazy" onError={() => setFailedSrc(src)} />
+    <img
+      className={className}
+      src={src}
+      alt={alt}
+      loading="lazy"
+      onError={() => setFailedSrc(src)}
+      onLoad={onLoad}
+    />
   )
 }
 
