@@ -7,6 +7,7 @@ import type {
   CollectionPieceCard,
   CollectionsFile,
   Piece,
+  PieceOriginal,
   PieceVariant,
   PiecesFile,
 } from './types/content'
@@ -67,12 +68,23 @@ function parsePieceVariant(value: unknown, pieceIndex: number, variantIndex: num
   return variant
 }
 
+function parsePieceOriginal(value: unknown, pieceIndex: number): PieceOriginal {
+  if (!isObject(value) || typeof value.image !== 'string' || typeof value.description !== 'string') {
+    throw new Error(`Invalid pieces.yaml at pieces[${pieceIndex}].original`)
+  }
+
+  return {
+    image: value.image,
+    description: value.description,
+  }
+}
+
 function parsePiece(value: unknown, index: number): Piece {
   if (!isObject(value)) {
     throw new Error(`Invalid pieces.yaml at pieces[${index}]`)
   }
 
-  const { title, slug, description, primaryImage, tags, variants } = value
+  const { title, slug, description, primaryImage, tags, variants, original } = value
 
   if (
     typeof title !== 'string' ||
@@ -84,7 +96,7 @@ function parsePiece(value: unknown, index: number): Piece {
     throw new Error(`Invalid pieces.yaml at pieces[${index}]`)
   }
 
-  return {
+  const piece: Piece = {
     title,
     slug,
     description,
@@ -94,6 +106,12 @@ function parsePiece(value: unknown, index: number): Piece {
       parsePieceVariant(variant, index, variantIndex),
     ),
   }
+
+  if (original !== undefined) {
+    piece.original = parsePieceOriginal(original, index)
+  }
+
+  return piece
 }
 
 function parseCollectionsFile(yamlText: string): CollectionsFile {

@@ -3,6 +3,9 @@ pieces:
     slug: "hollis-nh-library"
     description: "A reinterpretation of the Hollis Social Library in Hollis, NH, with a focus on atmosphere and architectural character. I remember checking books out by the armful during the summer growing up, and I always enjoyed the display of birds in the main room of the pre-renovated building. I have many fond memories of my mom bringing us to the library. The watercolor version softens the edges and emphasizes light, while the charcoal, bold-line, and black-and-white treatments shift attention toward symmetry, texture, and the building’s classical details."
     primaryImage: "hollis-nh-library__watercolor.png"
+    original:
+      image: "hollis-nh-library__original.jpg"
+      description: "This is the photo I took of the Hollis Social Library, which I used as the source reference.  I wanted to blend the library I knew as a child with the renovated library.  You'll notice I focused on the building, and also chose to remove the right entrance.  While that entrance provided essentail access for those with disabilities, I enjoyed the symmetry of the building and wanted to emphasize that in my reinterpretation.  I also chose to remove the telephone pole, wires, and H-stake signs in addition to adding more trees to frame the building.  I wanted to create a more timeless and nostalgic feel, while also emphasizing the classical architecture of the building."
     tags:
       - "hollis"
       - "new-hampshire"
@@ -28,8 +31,11 @@ pieces:
 
   - title: "Hollis Monument Store"
     slug: "hollis-nh-monument-store"
-    description: "A quiet storefront located adjacent to the Hollis Town Common, reimagined through painterly and sketch-based treatments. Growing up, I would ride my bike to the old convenience store to buy penny candy and junk food, and sometimes my friends and I would sneak over after Boy Scouts. The watercolor version gives the scene a softened, nostalgic feel, while the charcoal and expressive versions emphasize texture, age, and the handmade character of a local landmark."
+    description: "The market is a quiet storefront adjacent to the Hollis Town Common, reimagined through painterly and sketch-based treatments. Growing up, I would ride my bike to the old convenience store to buy penny candy, and sometimes my friends and I would sneak over after Boy Scout meetings. The watercolor version gives the scene a softened, nostalgic feel, while the charcoal and expressive versions emphasize texture, age, and the handmade character of a local landmark."
     primaryImage: "hollis-nh-monument-store__watercolor.png"
+    original:
+      image: "hollis-nh-monument-store__original.jpg"
+      description: "This original is the photo I took.  I wanted to focus on the timeless feel of the building, the outside of which hasn't changed significantly since I would go in the 1970s.  I did remove the cars, the stop sign, and the help wanted signs which were distracting from the building and the overall composition.  I changed the Open flag to a US flag, added more trees to frame the building, and added some fading to the edges, as if the other buildings nearby are fading into history."
     tags:
       - "hollis"
       - "new-hampshire"
@@ -54,6 +60,9 @@ pieces:
     slug: "nashua-nh-leda-lanes"
     description: "A poster-style tribute to a longtime Nashua bowling landmark. Leda Lanes opened in 1959 and became a familiar gathering place for generations of bowlers and families. If you are from Nashua, you may remember going there as a child, or maybe you were a member of a league. This image leans into bold color, simplified shapes, and retro destination-poster energy, presenting the bowling alley as a cheerful local landmark and a nostalgic destination for fun nights out. The poster style gives the iconic sign and building a vintage feel while celebrating the unique character of this beloved spot."
     primaryImage: "nashua-nh-leda-lanes__poster-style.png"
+    original:
+      image: "nashua-nh-leda-lanes__original.jpg"
+      description: "I took this photo after Leda Lanes had closed but just before it was demolished.  I was very sad while taking the photo, as another landmark from the \"old\" Nashua was being lost.  I wanted to create a reinterpretation that would celebrate the building and the sign, and also give it a nostalgic feel.  Sitting in the parking lot, I wondered what it would have felt like to be right there in the late 1950s.  The sign in the piece is new and the building is in brand new condition, welcoming friends to their evening league night or maybe a drink in the pub.  This building and business was a community staple for decades, and I hope to have celebrated that in this reinterpretation."
     tags:
       - "nashua"
       - "new-hampshire"
@@ -70,6 +79,9 @@ pieces:
     slug: "nashua-nh-whiting-building"
     description: "The historic Whiting Building in downtown Nashua was built in 1889. It has always stood out to me because the cream-colored brick used in its construction is different from the red brick of the surrounding buildings. I've reimagined the building in the format of an 1890s streetscape, wondering how it might have looked when it was brand new, with the church behind it. The treatment uses softened period atmosphere, warm architectural detail, and a restrained historic palette to suggest the city’s transition from village center to busy downtown."
     primaryImage: "nashua-nh-whiting-building__historic-1890s.png"
+    original:
+      image: "nashua-nh-whiting-building__original.jpg"
+      description: "This view is from across the street at Railroad Square and what is currently the Riverwalk Cafe.  Back in the day I would have been standing in the middle of the street.  The church has been in that spot even longer than the Whiting Building, and I thought the two paired made a more impressive scene.  I can only imagine how the two would have looked, imposing buildings in a growing downtown that was made up of houses as well as grander buildings.  I removed all the stoplights, wires, and other visual distractions to focus on the two great buildings between the river and Library Hill.  I don't believe the church had its spire in the 1890s, but I kept it as a small historial inaccuracy to keep the church more recognizable."
     tags:
       - "nashua"
       - "new-hampshire"
@@ -87,6 +99,9 @@ pieces:
     slug: "nashua-nh-haywards"
     description: "A nostalgic reinterpretation of Hayward’s Ice Cream in Nashua, NH. Since opening in 1940, generations of families have enjoyed this classic ice cream stand. The postcard version presents Hayward’s as a cheerful roadside destination, while the whimsy-cars variation adds playful vintage energy and a sense of summer memory, where generations of cars have gathered to enjoy an ice cream cone together."
     primaryImage: "nashua-nh-haywards__postcard.png"
+    original:
+      image: "nashua-nh-haywards__original.jpg"
+      description: "Which ice cream stand is your favorite?  Well, I have opinions there and have to admit I have a bias for a few in Hollis.  That said, I love Hayward's and join generations of people who have come to enjoy an ice cream cone together.  That is the theme of both of the images I created - postcards from the past, and a whimsical look at generations coming together to enjoy a treat, as symbolized by various decades of car models."
     tags:
       - "nashua"
       - "new-hampshire"
@@ -106,6 +121,9 @@ pieces:
     slug: "nashua-nh-holman-arch-doorway"
     description: "This is a view through one of Holman Stadium’s arched entryways, based on a photo I took at sunrise one morning. Holman Stadium is part of Nashua’s Great Depression-era civic history, financed by Charles Frank Holman and the Works Progress Administration. The stadium has a vaunted history, including being home to the Brooklyn Dodgers' minor league affiliate, the first racially integrated professional baseball team in the U.S. in 1946, welcoming Roy Campanella and Don Newcombe to the team. It was also the location of the first game in which an African American, Campanella, managed a professional team with white athletes, and today it is home to the Nashua Silver Knights. The image emphasizes brick, symmetry, and the kind of public architecture built to feel durable and communal, while the view captures the morning light filtering through the arch over a classic baseball field."
     primaryImage: "nashua-nh-holman-arch-doorway__classic.png"
+    original:
+      image: "nashua-nh-holman-arch-doorway__original.jpg"
+      description: "I met friends to run from Holman Stadium and made them wait for me as I took this photo.  Holman is legendary for many reasons, and while this doesn't capture the stadium as a whole, I think it captures the experience of entering the stadium to enjoy a game.  I envisioned the scene nostalgically, where this could be Holman in 1946 or it could be last week.  The lighting could be dawn or dusk, and the First Church spire is closer than it is in life and very visible in the background.  I did take the liberty of capturing stores from different eras advertising along the outfield wall, including Millyard Bank, as a nod to a high school friend who loves baseball and was a ball boy for the team."
     tags:
       - "nashua"
       - "new-hampshire"
@@ -123,6 +141,9 @@ pieces:
     slug: "nashua-nh-main-street-bridge"
     description: "A black-and-white reinterpretation of Nashua’s Main Street bridge, using strong contrast and simplified linework to highlight structure, movement, and urban character. The monochrome style gives the scene a documentary feel while keeping the focus on shape and atmosphere."
     primaryImage: "nashua-nh-main-street-bridge__black-and-white.png"
+    original:
+      image: "nashua-nh-main-street-bridge__original.jpg"
+      description: "I took this photo on St. Patrick's Day morning 2026 while waiting in line for the Peddler's Daughter to open.  I hadn't taken it with any plan other than being bored while waiting, but when I started making AI enhanced images and reinterpretations, I found that the lines in both the bridge and the old mill building in the background are very strong and lend themselves to a black-and-white treatment.  I emphasized this by removing the cars, most of the lines on the road, the paper boxes and the people.  This way the bridge, buildings and the beautiful street lights across the bridge stand out."
     tags:
       - "nashua"
       - "new-hampshire"
@@ -139,6 +160,9 @@ pieces:
     slug: "nashua-nh-peddlers-daughter"
     description: "A set of stylized reinterpretations of Peddler’s Daughter in downtown Nashua, NH. If you haven't been there, this is the real deal for fish and chips, along with a great pint of Guinness. The black-and-white version emphasizes line and storefront detail, the city-poster version gives it graphic urban energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
     primaryImage: "nashua-nh-peddlers-daughter__black-and-white.png"
+    original:
+      image: "nashua-nh-peddlers-daughter__original.jpg"
+      description: "This is another photo I took on St. Patrick's Day morning 2026 while waiting in line for the Peddlers Daughter to open.  I remember when Goodale’s Bike Shop used to be in this building, and the extensive renovations around 2003 before Peddler's opened.  This is one of the oldest pubs along Main Street, and always has a welcoming and festive feel.  I wanted to envision the pub in several different formats, taking advantage of the beautiful edifice and the festive bunting.  I think my favorite view is the Contemporary Impressionism - what's your favorite?"
     tags:
       - "nashua"
       - "new-hampshire"
@@ -164,9 +188,12 @@ pieces:
           - "contemporary-impressionism"
 
   - title: "Rockport Fishing Shack"
-    slug: "nashua-nh-rockport-fishing-shack"
+    slug: "rockport-ma-fishing-shack"
     description: "A set of reinterpretations of the famous Rockport Fishing Shack in Rockport, Massachusetts. The watercolor version displays a dreamy and ethereal quality, the city-poster version gives it graphic illustration energy, and the contemporary impressionist version turns the scene into a warmer study of color, light, and evening atmosphere."
     primaryImage: "rockport-ma-fishing-shack__watercolor.png"
+    original:
+      image: "rockport-ma-fishing-shack__original.jpg"
+      description: "This has to be one of the most photographed buildings in New England, if not the East Coast, so of course I had to take a photo of it myself.  The actual location has a number of buildings nearby, but I tried to envision it in a more peaceful way, maybe as a beautiful shack along a quieter stretch of beach.  I added some street lights for interest in the darker photos and made sure the moored boats that are visible from certain angles are visible to the right of the building.  I didn't notice at the time, but there is a seagull perched on the chimney and in a way that I wouldn't be lucky enough to capture again."
     tags:
       - "rockport"
       - "massachusetts"
@@ -195,6 +222,9 @@ pieces:
     slug: "windsor-ma-notchview-scenic-hut"
     description: "A set of reinterpretations of the lovely scenic view at the Notchview Nordic ski area in Windsor, Massachusetts. Starting in 2015, the Berkshire Ultra Running Community for Service (BURCS) has hosted a race at the site, and the view is always iconic, changing throughout the day and into the night. The watercolor version displays a dreamy and ethereal quality, the charcoal version focuses on the lines and textures in the scene, and the neo-expressionist version turns the scene into a more exotic study of color, light, and atmosphere."
     primaryImage: "windsor-ma-notchview-hut__watercolor.png"
+    original:
+      image: "windsor-ma-notchview-scenic-hut__original.jpg"
+      description: "The view by the hut is breathtaking and always welcomed each time a runner passes by during the Notchview Ultramarathon.  There isn't really much to improve, but I did remove the sign and emphasized the cloud for both watercolor versions and the charcoal version.  I created the Neo Expressionist on a whim and appreciate how the energy and colors change the scene."
     tags:
       - "windsor"
       - "massachusetts"
@@ -222,6 +252,9 @@ pieces:
     slug: "nashua-nh-hunt-memorial-building__seasonal-set"
     description: "Four reinterpretations of the Hunt Memorial Building in Nashua, New Hampshire, with a seasonal flair. The Holiday Stroll in Nashua generally ends at the lovely tree next to Railroad Square for the tree lighting ceremony, and I thought it would be fun to reimagine the scene for various holidays, one for each season. The Christmas version emphasizes the festive holiday spirit, the Easter Day version gives it a romantic and whimsical feel, the Halloween version adds a spooky and playful atmosphere, and the Spring version focuses on the blooming flowers and fresh energy of the season."
     primaryImage: "nashua-nh-hunt-memorial-building__seasonal-easter.png"
+    original:
+      image: "nashua-nh-hunt-memorial-building__seasonal-set__original.jpg"
+      description: "The tree in the foreground has been used for years (at least most years) to serve as a gathering place for the tree lighting at the Holiday Stroll, which traditionally takes place the Saturday night after Thanksgiving.  The actual location is very urban, but if you angle the tree just right, you can imagine the scene more natural and outside of the hustle and bustle of the city.  Since I'm familiar with the tree and it being decorated with lights for the winter holidays, I thought this would be a great first attempt to envision holidays around the calendar based on the tree with the stately Hunt Building in the background."
     tags:
       - "nashua"
       - "new-hampshire"
@@ -248,6 +281,9 @@ pieces:
     slug: "nashua-nh-hunt-memorial-building"
     description: "The Hunt Memorial Building in Nashua, New Hampshire, is an often overlooked gem. It’s a beautiful piece of architecture and a local landmark right at the top of Library Hill, and in looking at it, I envisioned the building in a few different ways. First, what it could look like with a bit more grass and landscaping, with color bursting in spring. Or, without color, using a black-and-white charcoal image to bring forward the beautiful lines and architecture of the building. Lastly, for fun, a postcard that someone could have sent in the 1920s, 1940s, or even the 1960s, with a nostalgic, vintage feel."
     primaryImage: "nashua-nh-hunt-memorial-building__realistic.png"
+    original:
+      image: "nashua-nh-hunt-memorial-building__original.jpg"
+      description: "There are some wonderful buildings in Nashua, but the Hunt Memorial Building has to be one of the top ones, and yet challenging to appreciate.  The location at the top of Library Hill isn't the most accessible, and the building is often overlooked despite the beautiful architecture.  It doesn't help that the First Church is right across the street and is stunning in its own right.  When I envisioned the Hunt Building, I looked at it with a bit more landscaping and greenery, as well as a bit of lawn that may have been there when the road wasn't quite as wide.  I moved the tree that is decorated for the holidays closer to frame the building, and hid the cars, clutter, wires and other buildings so that the focus could be on the Hunt Building itself."
     tags:
       - "nashua"
       - "new-hampshire"

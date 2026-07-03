@@ -67,6 +67,15 @@ for (const piece of piecesData.pieces ?? []) {
       filename: variant.image,
     });
   }
+
+  if (piece.original !== undefined) {
+    validateImageReference({
+      source: "pieces.yaml",
+      owner,
+      field: "original.image",
+      filename: piece.original?.image,
+    });
+  }
 }
 
 if (errors.length > 0) {

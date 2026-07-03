@@ -609,8 +609,27 @@
   animation: piece-fade-in 220ms ease;
 }
 
+.piece-page__view-group {
+  margin-top: 1rem;
+}
+
+.piece-page__view-group--source {
+  margin-top: 0.95rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid #343b46;
+}
+
+.piece-page__view-group h2 {
+  margin: 0 0 0.55rem;
+  color: var(--text-muted);
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
 .piece-page__thumbnails {
-  margin-top: 0.82rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
   gap: 0.55rem;

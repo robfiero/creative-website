@@ -5,6 +5,29 @@ import ImageWithFallback from '../components/ImageWithFallback'
 import { buildImageUrl, findPieceBySlug } from '../content'
 import type { PieceVariant } from '../types/content'
 
+type SelectedView =
+  | {
+      type: 'primary'
+      id: string
+      image: string
+      label: string
+      description: string
+    }
+  | {
+      type: 'variant'
+      id: string
+      image: string
+      label: string
+      description: string
+    }
+  | {
+      type: 'source'
+      id: string
+      image: string
+      label: string
+      description: string
+    }
+
 function PiecePage() {
   const { slug } = useParams<{ slug: string }>()
   const [searchParams] = useSearchParams()
@@ -18,25 +41,73 @@ function PiecePage() {
     return piece.variants
   }, [piece])
 
-  const defaultSelectedImage = useMemo(() => {
+  const sourceViews: SelectedView[] = useMemo(() => {
+    if (!piece?.original) {
+      return []
+    }
+
+    return [
+      {
+        type: 'source',
+        id: 'source:original',
+        image: piece.original.image,
+        label: 'Original Photo',
+        description: piece.original.description,
+      },
+    ]
+  }, [piece])
+
+  const viewById = useMemo(() => {
+    const views = new Map<string, SelectedView>()
+
+    if (!piece) {
+      return views
+    }
+
+    views.set(`primary:${piece.primaryImage}`, {
+      type: 'primary',
+      id: `primary:${piece.primaryImage}`,
+      image: piece.primaryImage,
+      label: 'Primary',
+      description: piece.description,
+    })
+
+    for (const variant of piece.variants) {
+      views.set(`variant:${variant.image}`, {
+        type: 'variant',
+        id: `variant:${variant.image}`,
+        image: variant.image,
+        label: variant.label,
+        description: piece.description,
+      })
+    }
+
+    for (const sourceView of sourceViews) {
+      views.set(sourceView.id, sourceView)
+    }
+
+    return views
+  }, [piece, sourceViews])
+
+  const defaultSelectedViewId = useMemo(() => {
     if (!piece) {
       return ''
     }
 
     if (variantFromQuery && piece.variants.some((variant) => variant.image === variantFromQuery)) {
-      return variantFromQuery
+      return `variant:${variantFromQuery}`
     }
 
     const primaryInVariants = piece.variants.find((variant) => variant.image === piece.primaryImage)
 
     if (primaryInVariants) {
-      return primaryInVariants.image
+      return `variant:${primaryInVariants.image}`
     }
 
-    return piece.variants[0]?.image ?? piece.primaryImage
+    return `primary:${piece.primaryImage}`
   }, [piece, variantFromQuery])
 
-  const [selectedImageByContext, setSelectedImageByContext] = useState<Record<string, string>>({})
+  const [selectedViewByContext, setSelectedViewByContext] = useState<Record<string, string>>({})
   const [mainImageIsPortrait, setMainImageIsPortrait] = useState(false)
 
   const handleMainImageLoad = useCallback((e: React.SyntheticEvent<HTMLImageElement>) => {
@@ -44,14 +115,14 @@ function PiecePage() {
     setMainImageIsPortrait(img.naturalHeight > img.naturalWidth)
   }, [])
   const selectionContextKey = `${piece?.slug ?? ''}:${variantFromQuery ?? ''}`
-  const userSelectedImage = selectedImageByContext[selectionContextKey] ?? null
+  const userSelectedViewId = selectedViewByContext[selectionContextKey] ?? null
 
-  const selectedImage =
-    userSelectedImage && variantsForStrip.some((variant) => variant.image === userSelectedImage)
-      ? userSelectedImage
-      : defaultSelectedImage
-  const selectedVariantLabel =
-    piece?.variants.find((variant) => variant.image === selectedImage)?.label ?? 'Primary'
+  const selectedView =
+    (userSelectedViewId ? viewById.get(userSelectedViewId) : undefined) ??
+    viewById.get(defaultSelectedViewId)
+  const selectedImage = selectedView?.image ?? piece?.primaryImage ?? ''
+  const selectedViewLabel = selectedView?.label ?? 'Primary'
+  const selectedDescription = selectedView?.description ?? piece?.description ?? ''
 
   if (!piece) {
     return (
@@ -85,43 +156,82 @@ function PiecePage() {
             </div>
           </div>
 
-          {variantsForStrip.length > 1 ? (
-            <div className="piece-page__thumbnails" aria-label="Variant thumbnails">
-              {variantsForStrip.map((variant) => {
-                const isActive = variant.image === selectedImage
+          {variantsForStrip.length > 0 ? (
+            <section className="piece-page__view-group" aria-labelledby="piece-artwork-styles-title">
+              <h2 id="piece-artwork-styles-title">Artwork Styles</h2>
+              <div className="piece-page__thumbnails" aria-label="Artwork style thumbnails">
+                {variantsForStrip.map((variant) => {
+                  const viewId = `variant:${variant.image}`
+                  const isActive = selectedView?.id === viewId
 
-                return (
-                  <button
-                    key={`${variant.label}-${variant.image}`}
-                    type="button"
-                    className={`piece-page__thumbnail ${isActive ? 'is-active' : ''}`}
-                    onClick={() =>
-                      setSelectedImageByContext((current) => ({
-                        ...current,
-                        [selectionContextKey]: variant.image,
-                      }))
-                    }
-                    aria-label={`Show variant: ${variant.label}`}
-                    aria-pressed={isActive}
-                  >
-                    <ImageWithFallback
-                      className="piece-page__thumbnail-image"
-                      src={buildImageUrl(variant.image)}
-                      alt={variant.label}
-                      fallbackClassName="piece-page__thumbnail-image piece-page__thumbnail-placeholder"
-                      fallbackText=""
-                    />
-                  </button>
-                )
-              })}
-            </div>
+                  return (
+                    <button
+                      key={`${variant.label}-${variant.image}`}
+                      type="button"
+                      className={`piece-page__thumbnail ${isActive ? 'is-active' : ''}`}
+                      onClick={() =>
+                        setSelectedViewByContext((current) => ({
+                          ...current,
+                          [selectionContextKey]: viewId,
+                        }))
+                      }
+                      aria-label={`Show variant: ${variant.label}`}
+                      aria-pressed={isActive}
+                    >
+                      <ImageWithFallback
+                        className="piece-page__thumbnail-image"
+                        src={buildImageUrl(variant.image)}
+                        alt={variant.label}
+                        fallbackClassName="piece-page__thumbnail-image piece-page__thumbnail-placeholder"
+                        fallbackText=""
+                      />
+                    </button>
+                  )
+                })}
+              </div>
+            </section>
+          ) : null}
+
+          {sourceViews.length > 0 ? (
+            <section className="piece-page__view-group piece-page__view-group--source" aria-labelledby="piece-source-title">
+              <h2 id="piece-source-title">Source</h2>
+              <div className="piece-page__thumbnails" aria-label="Source thumbnails">
+                {sourceViews.map((sourceView) => {
+                  const isActive = selectedView?.id === sourceView.id
+
+                  return (
+                    <button
+                      key={sourceView.id}
+                      type="button"
+                      className={`piece-page__thumbnail ${isActive ? 'is-active' : ''}`}
+                      onClick={() =>
+                        setSelectedViewByContext((current) => ({
+                          ...current,
+                          [selectionContextKey]: sourceView.id,
+                        }))
+                      }
+                      aria-label={`Show source: ${sourceView.label}`}
+                      aria-pressed={isActive}
+                    >
+                      <ImageWithFallback
+                        className="piece-page__thumbnail-image"
+                        src={buildImageUrl(sourceView.image)}
+                        alt={sourceView.label}
+                        fallbackClassName="piece-page__thumbnail-image piece-page__thumbnail-placeholder"
+                        fallbackText=""
+                      />
+                    </button>
+                  )
+                })}
+              </div>
+            </section>
           ) : null}
         </div>
 
         <div className="piece-page__details">
           <h1 id="piece-title">{piece.title}</h1>
-          <p className="piece-page__variant-label">{selectedVariantLabel}</p>
-          <p className="piece-page__description">{piece.description}</p>
+          <p className="piece-page__variant-label">{selectedViewLabel}</p>
+          <p className="piece-page__description">{selectedDescription}</p>
 
           <ul className="piece-page__tags" aria-label="Tags">
             {piece.tags.map((tag) => (

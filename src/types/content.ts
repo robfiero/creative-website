@@ -12,6 +12,11 @@ export type PieceVariant = {
   tags?: string[]
 }
 
+export type PieceOriginal = {
+  image: string
+  description: string
+}
+
 export type Piece = {
   title: string
   slug: string
@@ -19,6 +24,7 @@ export type Piece = {
   primaryImage: string
   tags: string[]
   variants: PieceVariant[]
+  original?: PieceOriginal
 }
 
 export type CollectionPieceCard = {
